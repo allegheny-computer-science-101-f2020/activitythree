@@ -44,7 +44,7 @@ public class Count {
     }
 
     // declare the variable, using an array
-    String [] names = new String[30000];
+    String [] names = new String[15000];
     for (int count = 0; count < names.length; count++) {
       names[count] = scanner.nextLine();
     }
