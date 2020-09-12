@@ -44,11 +44,10 @@ public class Count {
     }
 
     // declare the variable, using an array
-    String [] names = new String[8000];
+    String [] names = new String[196317];
     for (int count = 0; count < names.length; count++) {
       names[count] = scanner.nextLine();
     }
-
     int totalCount = Count.count(names);
 
     System.out.println("  Total count: " + totalCount);
